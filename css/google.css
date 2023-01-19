@@ -52,7 +52,7 @@ body{
     align-items: center;
 }
 
-a{
+.navbar-link{
     text-decoration: none;
     color: black;
 }
@@ -102,7 +102,7 @@ a{
 
 /* INICIO main */
 #main{
-    height: 75vh;
+    height: 79vh;
 }
 
 .main-def{
@@ -172,6 +172,7 @@ a{
     background-color: rgb(241, 241, 241);
     border: none;
     border-radius: 3px;
+    font-size: 20px
 }
 
 #but-1:hover{
@@ -180,6 +181,7 @@ a{
     background-color: rgb(241, 241, 241);
     border: solid 4px rgb(189, 189, 189);
     border-radius: 5px;
+    font-size: 20px
 }
 
 #but-2{
@@ -188,6 +190,7 @@ a{
     background-color: rgb(241, 241, 241);
     border: none;
     border-radius: 3px;
+    font-size: 20px
 }
 
 #but-2:hover{
@@ -196,18 +199,27 @@ a{
     background-color: rgb(241, 241, 241);
     border: solid 4px rgb(189, 189, 189);
     border-radius: 5px;
+    font-size: 20px
 }
 
 #main-txt{
-    background-color: cyan;
     height: 25vh;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.txt{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(121, 121, 121);
 }
 /* FIN main */
 
 /* INICIO footer */
 #footer{
-    background-color: yellow;
-    height: 15vh;
+    background-color: rgb(228, 228, 228);
+    height: 11vh;
 }
 
 .footer-def{
@@ -216,19 +228,60 @@ a{
 }
 
 #footer-españa{
-    background-color: hotpink;
-    height: 50%;
+    height: 1vh;
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(121, 121, 121);
 }
 
 #footer-info{
+
     display: flex;
-    background-color: grey;
-    height: 50%;
+    height: 5vh;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .info-2{
-    background-color: greenyellow;
-    width: 20vw;
+    height: 100%;
+    font-size: 17px;
+    color: rgb(121, 121, 121);
+}
+
+#info-1{
+    justify-content: start;
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.footer-txt-1{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+#info-2{
+    text-align: center;
+    justify-content: center;
+    width: 40vw;
+}
+
+#info-3{
+    justify-content: end;
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.footer-txt-2{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 /* FIN footer */
