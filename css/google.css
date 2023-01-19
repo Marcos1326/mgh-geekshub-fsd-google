@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+/* INICIO container */
+.container{
+    background-color: red;
+    height: 100vh;
+}
+/* FIN container */
+
+/* INICIO navbar */
+#navbar{
+    height: 10vh;
+    background-color: aqua;
+    display: flex;
+}
+
+#navbar-l{
+    display: flex;
+    background-color: red;
+    width: 50vw;
+    align-items: center;
+    justify-content: start;
+}
+
+#navbar-r{
+    display: flex;
+    background-color: blue;
+    width: 50vw;
+    align-items: center;
+    justify-content:end;
+}
+/* FIN navbar */
+
+/* INICIO main */
+#main{
+    height: 75vh;
+    background-color: lightgreen;
+}
+
+.main-def{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-img{
+    background-color: aquamarine;
+    height: 40vh;
+}
+
+#main-but{
+    background-color: darkgoldenrod;
+    height: 10vh;
+}
+
+#main-txt{
+    background-color: cyan;
+    height: 25vh;
+}
+/* FIN main */
+
+/* INICIO footer */
+#footer{
+    background-color: yellow;
+    height: 15vh;
+}
+
+.footer-def{
+    display: flex;
+    align-items: center;
+}
+
+#footer-españa{
+    background-color: hotpink;
+    height: 50%;
+}
+
+#footer-info{
+    display: flex;
+    background-color: grey;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.info-2{
+    background-color: greenyellow;
+    width: 20vh;
+}
+/* FIN footer */
