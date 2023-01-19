@@ -4,7 +4,7 @@ body{
 
 /* INICIO container */
 .container{
-    background-color: red;
+    background-color: white;
     height: 100vh;
 }
 /* FIN container */
@@ -12,31 +12,97 @@ body{
 /* INICIO navbar */
 #navbar{
     height: 10vh;
-    background-color: aqua;
     display: flex;
 }
 
+/* navbar izquierda */
 #navbar-l{
     display: flex;
-    background-color: red;
     width: 50vw;
     align-items: center;
-    justify-content: start;
+    padding: 20px;
+}
+
+#navbar-l-1{
+    width: 20vw;
+    font-size: 20px;
+    height: 5vh;
+    align-items: center;
+}
+
+/* navbar derecha */
+.text-def{
+    display: flex;
+    gap: 20px;
 }
 
 #navbar-r{
     display: flex;
-    background-color: blue;
     width: 50vw;
     align-items: center;
     justify-content:end;
+    padding: 20px;
+}
+
+#navbar-r-1{
+    width: 8vw;
+    font-size: 20px;
+    justify-content: center;
+    height: 5vh;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar-r-2{
+    width: 5vw;
+    display: flex;
+    justify-content: start;
+    height: 4vh;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    height: 5vh;
+    width: 5vw;
+} 
+
+#boton{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-image: url(../img/menu.png);
+    background-size: cover;
+}
+
+#boton:hover{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-image: url(../img/menu-2.png);
+    background-size: cover;
+}
+
+#perfil{
+    display: flex;
+    height: 5vh;
+    width: 5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfil-img{
+    width: 100%;
 }
 /* FIN navbar */
 
 /* INICIO main */
 #main{
     height: 75vh;
-    background-color: lightgreen;
 }
 
 .main-def{
@@ -46,13 +112,90 @@ body{
 }
 
 #main-img{
-    background-color: aquamarine;
     height: 40vh;
+    display:flex ;
+    flex-direction: column;
+}
+
+#logo{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-1{
+    height: 160px;
+    width: 500px;
+}
+
+#search{
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-1{
+    height: 85px;
+    width: 1020px;
+    background-image: url(../img/google.png);
+    border: none;
+    background-size: cover;
+}
+
+#search-1:hover{
+    height: 95px;
+    width: 1020px;
+    background-image: url(../img/google-2.png);
+    border: none;
+    background-size: cover;
 }
 
 #main-but{
-    background-color: darkgoldenrod;
     height: 10vh;
+}
+
+#but{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18vw;
+    height: 5vh;
+}
+
+#but-1{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    border-radius: 3px;
+}
+
+#but-1:hover{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(241, 241, 241);
+    border: solid 4px rgb(189, 189, 189);
+    border-radius: 5px;
+}
+
+#but-2{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    border-radius: 3px;
+}
+
+#but-2:hover{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(241, 241, 241);
+    border: solid 4px rgb(189, 189, 189);
+    border-radius: 5px;
 }
 
 #main-txt{
@@ -86,6 +229,6 @@ body{
 
 .info-2{
     background-color: greenyellow;
-    width: 20vh;
+    width: 20vw;
 }
 /* FIN footer */
