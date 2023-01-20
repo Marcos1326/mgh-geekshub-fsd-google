@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    font-size: x-large;
+}
+
+#index{
+    border: solid 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 50vw;
+    height: 50vh;
+    gap: 80px;
+}
+
+button{
+    background-color: black;
+    font-size: larger;
+    width: 300px;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
